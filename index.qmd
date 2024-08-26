@@ -35,7 +35,7 @@ My name is Yingzheng Liu, or Ian Liu. I'm currently a **Graduate Research Assist
 ##### **Research Fields**
 
 - Complex systems and systems science
-- Machine learning and data sciecne for public health
+- Machine learning and data science for public health
 
 ##### **Computer Skills**
 
