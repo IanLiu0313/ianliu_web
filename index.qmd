@@ -1,0 +1,47 @@
+---
+title: "Ian Liu"
+about:
+    id: hero-heading
+    template: jolla
+    links:
+        - icon: linkedin
+          text: LinkedIn
+          url: https://www.linkedin.com/in/yingzheng-ian-liu-48b90084/
+        - icon: github
+          text: Github
+          url: https://github.com/ianliu0313
+        - text: "{{< fa envelope >}} Email"
+          url: mailto:yliu2@trinity.edu
+        - text: "{{< ai google-scholar >}} Google Scholar"
+          url: https://scholar.google.com/citations?user=z1fXh8AAAAAJ&hl=en
+
+image: img/ianliu.jpg
+comments: false
+---
+
+:::{#hero-heading}
+##### **About**
+
+My name is Yingzheng Liu, or Ian Liu. I'm currently a **Graduate Research Assistant** at the University of Virginia, and a **Lecturer** at Trinity University. 
+
+##### **Education**
+
+- PhD(In Progress) in Computer Science, University of Virginia
+- M.S. in Industrial & Systems Engineering, State University of New York, Binghamton
+- B.S. in Supply Chain Managment, Arizona State University
+- B.S. in Computer Information Systems, Arizona State University
+
+
+##### **Research Fields**
+
+- Complex systems and systems science
+- Machine learning and data sciecne for public health
+
+##### **Computer Skills**
+
+- R, Python, Quarto & R Markdown, $\LaTeX$, web design and implementation, major database management languages, and Office Suites.
+
+##### **Contact**
+- **yliu2** [at] **trinity** [dot] **edu**
+- **yl4dt** [at] **virginia** [dot] **edu**
+:::

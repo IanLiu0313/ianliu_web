@@ -1,0 +1,17 @@
+---
+title: Papers
+---
+
+
+## Key Research Interests
+
+- **Computational complex systems and their applications in management**: high-resolution agent-based modelling
+- **Computational dynamics**: computational dynamics of complex systems, computational dynamics of transportation, computational dynamics of social systems
+- **Machine learning for public health and safety**: simulation, data processing and modeling building
+  
+## 2024
+
+## 2023
+
+## 2022
+
