@@ -1,6 +1,49 @@
 ---
 title: "More About Me"
+
+jupyter: python3
+
 ---
 
 
-### Coming soon...
+
+```{python}
+#| echo: false
+#| 
+import plotly.graph_objects as go
+
+# List of states you've visited (using their abbreviations)
+visited_states = ['MA','NH','VT','NY','MD','DC','VA','NC','GA','FL','TX', 'AZ','UT','WY','MT','ID']  # Replace with your visited states
+
+# Data for the US map
+fig = go.Figure(data=go.Choropleth(
+    locations=visited_states,  # Spatial coordinates using state abbreviations
+    locationmode='USA-states',  # Indicates that the locations use US state abbreviations
+    z=[1] * len(visited_states),  # Value assigned to each state (same value for visited states)
+    colorscale='Greens',  # Color scale for the visited states
+    marker_line_color='white',  # State borders color
+    colorbar_title="Visited",  # Title for the color bar
+    showscale=False  # Hide the color bar
+))
+
+# Layout of the map
+fig.update_layout(
+    title_text='States My Kid and I Have Visited',
+    geo=dict(
+        scope='usa',  # Focus the map on the USA
+        projection=go.layout.geo.Projection(type='albers usa'),  # Map projection type
+        showlakes=True,  # Show lakes on the map
+        lakecolor='rgb(255, 255, 255)'  # Color of the lakes
+    )
+)
+
+# Show the map
+fig.show()
+
+
+```
+
+
+
+
+### More coming soon...
